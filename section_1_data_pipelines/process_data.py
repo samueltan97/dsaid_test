@@ -17,7 +17,7 @@ def remove_prepend_zeros(price_string):
 
 path = os.getcwd()
 today = datetime.datetime.today()
-df = pd.read_csv(path + "\\raw_data\\dataset_" + today.strftime('%d%m%y') + ".csv")
+df = pd.read_csv(path + "\\raw_data\\dataset.csv")
 
 # removes all rows with empty names
 df = df[df.name != '']
