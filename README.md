@@ -1,5 +1,11 @@
 # DSAID Data Engineering Technical Test
 
+## Required modules
+
+1. python-crontab
+2. pandas
+3. Docker
+4. PostgreSQL
 
 ## Section 1: Data Pipelines
 
